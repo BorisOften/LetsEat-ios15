@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ExploreViewController: UIViewController , UICollectionViewDataSource,
-                             UICollectionViewDelegate {
+class ExploreViewController: UIViewController , UICollectionViewDataSource, UICollectionViewDelegate {
     
     
     @IBOutlet var collectionView: UICollectionView!
@@ -40,6 +39,8 @@ class ExploreViewController: UIViewController , UICollectionViewDataSource,
         return headerView
     }
     
-    
+    @IBAction func unwindLocationCancel(segue: UIStoryboardSegue) {
+        
+    }
 
 }
